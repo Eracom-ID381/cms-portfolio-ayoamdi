@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'simplon_monoregular';
+    src: url('fonts/simplonmono-regular-webfont.woff2') format('woff2'),
+         url('fonts/simplonmono-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background-color: black;
+  font-family: 'simplon_monoregular', sans-serif;
+}
+
+/* ---- button ---- */
+
+.button {
+  display: inline-block;
+  padding: 10px 18px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 7px;
+  color: #222;
+  font-family: sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'simplon_monoregular', sans-serif;
+
+}
+
+.one {
+	background : rgb(251,181,78);
+}
+
+.two {
+	background : rgb(152,255,175);
+}
+
+.three {
+	background : rgb(255,230,13);
+}
+
+.four {
+	background : rgb(255,63,27);
+}
+
+.button:hover {
+  background-color: #8CF;
+  text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+  color: #222;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: white;
+}
+
+.button.is-checked {
+  color: black;
+}
+
+.button:active {
+  box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+/* ---- button-group ---- */
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+  position: relative;
+}
+
+.button-group .button {
+  float: left;
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+
+
+.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
+.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
+
+/* ---- isotope ---- */
+
+/* ---- .element-item ---- */
+
+.element-item {
+  position: relative;
+  float: left;
+  margin: 5px;
+  padding: 0px;
+  background: #888;
+  background-size: 100%;
+  color: #262524;
+}
+
+.element-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+.element-item .name {
+  position: absolute;
+
+  left: 10px;
+  top: 60px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 12px;
+  font-weight: normal;
+}
+/* ---- .element-item ---- */
+/* ---- .grid-item ---- */
+.grid {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+
+}
+/* clear fix */
+.grid:after {
+  content: '';
+  display: flex;
+  clear: both;
+}
+/* 5 columns, percentage width */
+.grid-item,
+.grid-sizer {
+  width: 49%;
+  display: table;
+
+}
+
+.grid-item {
+  float: left;
+  height: auto;
+  display: table-cell;
+}
+
+.grid-item--width2 { width: 20%; height: -10%}
+.grid-item--height2 { height: 200px;}
+.grid-item--width2 { width: 100%; }
+/* ---- .grid-item ---- */
+
+img {
+	object-fit: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+video {
+	object-fit: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+html {
+  overflow-y: scroll;
+}
+/*--
+.photo:hover{
+	box-shadow:  4px 4px 9px rgba(255, 230, 13, 1);
+}
+
+.video:hover {
+	box-shadow: 4px 4px 9px rgba(152, 255, 175, 1);
+}
+
+.animation:hover {
+	box-shadow: 4px 4px 9px rgba(255, 63, 27, 1);
+}
+
+.graphism:hover {
+	box-shadow: 4px 4px 9px rgba(251, 181, 78, 1);
+}--*/
+
+iframe {
+	max-width: 100%;
+}
+
+/*--back to top button--*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgba(255,230,13,2); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+
+}
+
+#myBtn:hover {
+  box-shadow:3px 3px 5px rgb(255, 63, 27);
+}

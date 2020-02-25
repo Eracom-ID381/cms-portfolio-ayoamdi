@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Diana | Interactiv Media Designer - WORK</title>
+		<link rel="stylesheet" href="css/travauxstyle.css">
+		<meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="element/icon/favicon.png">
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style2.css" />
+        <link rel="stylesheet" type="text/css" href="css/custom.css" />
+		<link rel="stylesheet" type="text/css" href="css/pf_Diana.css" />
+		<link href="css/lightbox.css" rel="stylesheet">
+		<link href="css/lightbox.min.css" rel="stylesheet">
+
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+		<script src="js/lightbox.js"></script>
+		<script src="js/lightbox-plus-jquery.js"></script>
+
+		<noscript>
+			<link rel="stylesheet" type="text/css" href="css/styleNoJS.css" />
+		</noscript>
+<body>
+	<!-- Codrops top bar-1 -->
+	<div class="codrops-top clearfix">
+		<span class="center">
+			<a href="index.html"><img src="element/icon/logo-blanc.svg" alt="Diana- logo" width="18%" style="float:left"> &nbsp;&nbsp;Diana - Interactiv Media Designer </a></span>
+		<span class="left"></span>
+		<span class="right">
+			<a href="about.html">
+			   ABOUT
+			</a>
+		</span>
+		<span class="right">
+			<a href="work.html">
+			   WORK
+			</a>
+		</span>
+		<div class="clr"></div>
+	</div>
+	<!--/ Codrops top bar-1  -->
+
+<div class="button-group filters-button-group">
+  <button class="button one is-checked" data-filter="*">Show all</button>
+  <button class="button two" data-filter=".video">Videos</button>
+  <button class="button three" data-filter=".photo">Photos</button>
+  <button class="button four" data-filter=".animation">Animations</button>
+  <button class="button one" data-filter=".graphism">Graphism</button>
+  <button class="button two" data-filter=".uiux">UI/UX</button>
+
+</div>
+
+<div class="grid">
+	<div class="grid-sizer"></div>
+	<!-- Images used to open the lightbox -->
+	<img class="element-item grid-item photo hover-shadow" onclick="openModal();currentSlide(1)" data-category="photo" src="element/photo/5_1.jpg" alt="">
+
+
+	<img class="element-item grid-item photo hover-shadow" onclick="openModal();currentSlide(4)" data-category="photo" src="element/photo/4_2.jpg">
+
+
+	<video  class="element-item grid-item grid-item--width2 video hover-shadow" data-category="video" onclick="openModal();currentSlide(9)">
+		<source src="element/video/Ibba.mp4" type="video/mp4">
+	</video>
+
+	<video  class="element-item grid-item grid-item--width2 animation hover-shadow" data-category="animation" onclick="openModal();currentSlide(10)" poster="element/animation/poster-1.png">
+		<source src="element/animation/1.mp4" type="video/mp4">
+	</video>
+
+	<img class="element-item grid-item photo hover-shadow" onclick="openModal();currentSlide(11)" data-category="photo" src="element/photo/3_1.jpg" alt="">
+
+	<video  class="element-item grid-item animation hover-shadow" data-category="animation" onclick="openModal();currentSlide(13)" width="500px">
+		<source src="element/animation/1b.mp4" type="video/mp4">
+	</video>
+
+	<video  class="element-item grid-item grid-item--width2 video hover-shadow" data-category="video" onclick="openModal();currentSlide(14)" poster="element/video/poster-pullover.png">
+		<source src="element/video/PullOver.mp4" type="video/mp4">
+	</video>
+
+	<img class="element-item grid-item graphism hover-shadow" onclick="openModal();currentSlide(15)" data-category="graphism" src="element/graphisme/1_1.jpg" alt="">
+
+	<img class="element-item grid-item graphism hover-shadow" onclick="openModal();currentSlide(16)" data-category="graphism" src="element/graphisme/1_2.jpg" alt="">
+
+	<video  class="element-item grid-item grid-item--width2 uiux hover-shadow" data-category="uiux" onclick="openModal();currentSlide(17)">
+		<source src="element/uiux/declan.mp4" type="video/mp4">
+	</video>
+
+	<img class="element-item grid-item photo hover-shadow" onclick="openModal();currentSlide(18)" data-category="photo" src="element/photo/2_3.jpg" alt="">
+
+	<img class="element-item grid-item photo hover-shadow" onclick="openModal();currentSlide(22)" data-category="photo" src="element/photo/1_5.jpg" alt="">
+
+	<video  class="element-item grid-item grid-item--width2 video hover-shadow" data-category="video" onclick="openModal();currentSlide(26)">
+		<source src="element/video/Alright_Diana.mp4" type="video/mp4">
+	</video>
+
+
+	<!-- The Modal/Lightbox 4 -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+	  <div class="caption-container"></div>
+
+    <div class="mySlides">
+      <div class="numbertext">1</div>
+      <img src="element/photo/5_2.jpg" style="width:100%">
+	  <div class="modal-footer">
+		<h5 class="title">Photopoetry</h5>
+		<h5> Photography Project in which I had to carry out a work on poetry through a lens</h5>
+  	  </div>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext">2</div>
+      <img src="element/photo/5_3.jpg" style="width:100%">
+	  <div class="modal-footer">
+		<h5 class="title">Photopoetry</h5>
+		<h5> Photography Project in which I had to carry out a work on poetry through a lens</h5>
+  	  </div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3</div>
+      <img src="element/photo/5_4.jpg" style="width:100%">
+	  <div class="modal-footer">
+		<h5 class="title">Photopoetry</h5>
+		<h5> Photography Project in which I had to carry out a work on poetry through a lens</h5>
+  	  </div>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4</div>
+      <img src="element/photo/4_2.jpg" style="width:100%">
+	  <div class="modal-footer">
+		<h5 class="title">Magical Imagery</h5>
+		<h5> Photography Project in which I had to carry out a work on the magic that a camera could bring</h5>
+  	  </div>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext"> 5</div>
+      <img src="element/photo/4_3.jpg" style="width:100%">
+	  <div class="modal-footer">
+		<h5 class="title">Magical Imagery</h5>
+		<h5> Photography Project in which I had to carry out a work on the magic that a camera could bring</h5>
+  	  </div>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext"> 6</div>
+      <img src="element/photo/4_5.jpg" style="width:100%">
+	  <div class="modal-footer">
+		<h5 class="title">Magical Imagery</h5>
+		<h5> Photography Project in which I had to carry out a work on the magic that a camera could bring</h5>
+  	  </div>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext"> 7</div>
+      <img src="element/photo/4_8.jpg" style="width:100%">
+	  <div class="modal-footer">
+		<h5 class="title">Magical Imagery</h5>
+		<h5> Photography Project in which I had to carry out a work on the magic that a camera could bring</h5>
+  	  </div>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext"> 8</div>
+      <img src="element/photo/4_9.jpg" style="width:100%">
+	  <div class="modal-footer">
+		<h5 class="title">Magical Imagery</h5>
+		<h5> Photography Project in which I had to carry out a work on the magic that a camera could bring</h5>
+  	  </div>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext"> 9</div>
+	  <video controls="controls">
+  		<source src="element/video/Ibba.mp4" type="video/mp4">
+  	  </video>
+	  <div class="modal-footer">
+		<h5 class="title">Ibba</h5>
+		<h5> Video presentation of the artist Ibba (DJ) at the CaféXX (Freiburg)<br>Shooting : Lucid Dreams<br> Editing : Diana Chaves</h5>
+  	  </div>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext"> 10</div>
+	  <video controls="controls" poster="element/animation/poster-1.png">
+  		<source src="element/animation/1.mp4" type="video/mp4">
+  	  </video>
+	  <div class="modal-footer">
+		<h5 class="title">Opening Credits</h5>
+		<h5> Example of an opening credits a fictitious production company and movie<br>Done with After Effects</h5>
+  	  </div>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext"> 11</div>
+      <img src="element/photo/3_1.jpg" style="width:100%">
+	  <div class="modal-footer">
+		<h5 class="title">Junk</h5>
+		<h5> Still life Photograph made with waste material</h5>
+  	  </div>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext"> 12</div>
+      <img src="element/photo/3_2.jpg" style="width:100%">
+	  <div class="modal-footer">
+		<h5 class="title">Junk</h5>
+		<h5> Still life Photograph made with waste material</h5>
+  	  </div>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext"> 13</div>
+	  <video controls="controls">
+  		<source src="element/animation/1b.mp4" type="video/mp4">
+  	  </video>
+	  <div class="modal-footer">
+		<h5 class="title">CSS Animation</h5>
+		<h5> SVG logo animation</h5>
+  	  </div>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext"> 14</div>
+	  <video controls="controls" poster="element/video/poster-pullover.png">
+  		<source src="element/video/PullOver.mp4" type="video/mp4" >
+  	  </video>
+	  <div class="modal-footer">
+		<h5 class="title">Pull Over</h5>
+		<h5> Vidéo Workshop<br> Production Project based from a scénario</h5>
+  	  </div>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext"> 15</div>
+      <img src="element/graphisme/1_1.jpg" style="width:100%">
+	  <div class="modal-footer">
+		<h5 class="title">Théatre en Utopie</h5>
+		<h5> A5 Flyer for "Théatre en Utopie" Exhibition</h5>
+  	  </div>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext"> 16</div>
+      <img src="element/graphisme/1_2.jpg" style="width:100%">
+	  <div class="modal-footer">
+		<h5 class="title">Théatre en Utopie</h5>
+		<h5> A5 Flyer for "Théatre en Utopie" Exhibition</h5>
+  	  </div>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext"> 17</div>
+	  <video controls="controls">
+  		<source src="element/uiux/declan.mp4" type="video/mp4">
+  	  </video>
+	  <div class="modal-footer">
+		<h5 class="title">Visual Animated</h5>
+		<h5> Graphic Animation<br>Done with InVision</h5>
+  	  </div>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext"> 18</div>
+      <img src="element/photo/2_3.jpg" style="width:100%">
+	  <div class="modal-footer">
+		<h5 class="title">Nocturnal Atmosphere</h5>
+		<h5> Photography Project in the aim was to show off a nocturnal atmosphere</h5>
+  	  </div>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext"> 19</div>
+      <img src="element/photo/2_2.jpg" style="width:100%">
+	  <div class="modal-footer">
+		<h5 class="title">Nocturnal Atmosphere</h5>
+		<h5> Photography Project in the aim was to show off a nocturnal atmosphere</h5>
+  	  </div>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext"> 20</div>
+      <img src="element/photo/2_1.jpg" style="width:100%">
+	  <div class="modal-footer">
+	   <h5 class="title">Nocturnal Atmosphere</h5>
+	   <h5> Photography Project in the aim was to show off a nocturnal atmosphere</h5>
+	 </div>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext"> 21</div>
+      <img src="element/photo/2_4.jpg" style="width:100%">
+	  <div class="modal-footer">
+	   <h5 class="title">Nocturnal Atmosphere</h5>
+	   <h5> Photography Project in the aim was to show off a nocturnal atmosphere</h5>
+	 </div>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext"> 22</div>
+      <img src="element/photo/1_5.jpg" style="width:100%">
+	  <div class="modal-footer">
+	   <h5 class="title">Lausanne Portrait</h5>
+	   <h5> Photography Project in which it was to create a portrait of a city</h5>
+	 </div>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext"> 23</div>
+      <img src="element/photo/1_3.jpg" style="width:100%">
+	  <div class="modal-footer">
+	   <h5 class="title">Lausanne Portrait</h5>
+	   <h5> Photography Project in which it was to create a portrait of a city</h5>
+	 </div>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext"> 24</div>
+      <img src="element/photo/1_2.jpg" style="width:100%">
+	  <div class="modal-footer">
+	   <h5 class="title">Lausanne Portrait</h5>
+	   <h5> Photography Project in which it was to create a portrait of a city</h5>
+	 </div>
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext"> 25</div>
+      <img src="element/photo/1_1.jpg" style="width:100%">
+	  <div class="modal-footer">
+	   <h5 class="title">Lausanne Portrait</h5>
+	   <h5> Photography Project in which it was to create a portrait of a city</h5>
+	 </div>
+    </div>
+
+
+	<div class="mySlides">
+      <div class="numbertext"> 26/ 26</div>
+	  <video controls="controls">
+  		<source src="element/video/Alright_Diana.mp4" type="video/mp4">
+  	  </video>
+	  <div class="modal-footer">
+	   <h5 class="title">Music Vidéo</h5>
+	   <h5> Création of a music clip</h5>
+	 </div>
+    </div>
+
+	<!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+  </div>
+</div>
+
+</div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">UP</button>
+
+<!-- Codrops footer bar-1 -->
+<div class="codrops-top clearfix">
+	<span class="center"></span>
+	<span class="left"><div class="footer"> ©Diana - Interactiv Media Designer</a></span>
+	<span class="right"></span>
+	<div class="clr"></div>
+</div>
+<!--/ Codrops footer bar-1  -->
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script>
+<script  src="js/travauxscript.js"></script>
+</body>
+</html>
