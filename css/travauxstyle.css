@@ -190,6 +190,10 @@ html {
     box-shadow: 4px 4px 9px rgba(251, 181, 78, 1);
 }
 
+.trois-d:hover {
+    box-shadow: 4px 4px 9px rgba(255, 230, 13, 1);
+}
+
 iframe {
     max-width: 100%;
 }
