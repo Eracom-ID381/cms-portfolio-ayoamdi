@@ -87,6 +87,12 @@ body {
     border-radius: 0 0.5em 0.5em 0;
 }
 
+.button-group {
+    margin-left: 10%;
+    padding: 10px;
+    position: relative;
+}
+
 /* ---- isotope ---- */
 /* ---- .element-item ---- */
 .element-item {
