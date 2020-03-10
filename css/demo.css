@@ -52,8 +52,7 @@ a {
 }
 
 .container.demo-1 {
-    height: 100%;
-    position: absolute;
+    height: 100vh;
 }
 
 .container {
