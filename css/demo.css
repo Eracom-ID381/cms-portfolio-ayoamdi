@@ -163,3 +163,14 @@ a {
     color: #aaa;
     border-color: #aaa;
 }
+
+@media screen and (max-width:500px) {
+    .codrops-top {
+        line-height: 75px;
+        font-size: 60%;
+        text-transform: uppercase;
+        z-index: 9999;
+        position: relative;
+        font-family: "Simplon", sans-serif;
+    }
+}

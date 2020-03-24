@@ -136,7 +136,7 @@ body {
     clear: both;
 }
 
-/* 5 columns, percentage width */
+/* 2 columns, percentage width */
 .grid-item,
 .grid-sizer {
     width: 49%;
@@ -417,4 +417,13 @@ h5 {
 
 .inactive {
     display: none;
+}
+
+@media screen and (max-width:1024px) {
+
+    .grid-item,
+    .grid-sizer {
+        width: 100%;
+        display: table;
+    }
 }
