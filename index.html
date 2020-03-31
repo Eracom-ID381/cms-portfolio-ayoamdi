@@ -22,8 +22,7 @@
 	</noscript>
 </head>
 
-<body>
-
+<body id="body">
 	<div class="container demo-1">
 		<!--
             <div class="codrops-top clearfix">
@@ -41,7 +40,6 @@
                 <div class="clr"></div>
             </div>
 		-->
-
 		<!--
             <nav class="codrops-demos">
 				<a class="current-demo" href="index.html">Demo 1</a>
@@ -52,79 +50,45 @@
 			<span class="center">
 				<a href="index.html"><img src="element/icon/logo-blanc.svg" alt="Diana- logo" width="18%" style="float:left"> &nbsp;&nbsp;Diana - Interactiv Media Designer </a></span>
 			</span>
-
 			<div class="clr"></div>
 		</div>
-		<!--/ Codrops top bar-3  -->
-		-->
-		<div id="slider" class="sl-slider-wrapper">
-
+		<!--/ Codrops top bar-3  --> --> <div id="slider" class="sl-slider-wrapper">
 			<div class="sl-slider">
-
 				<div class="sl-slide bg-1" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
-
 					<div class="sl-slide-inner">
 						<h2 class="slide-titre" id="home-titre"></a>Welcome</h2>
-
 					</div>
 				</div>
-
-
 				<div class="sl-slide bg-2" id="bg-2" data-orientation="horizontal" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
-
 					<div class="sl-slide-inner">
 						<h2 class="slide-titre" id="slide-2-titre">WORK</h2>
 					</div>
-
-
 				</div>
-
-
 				<div class="sl-slide bg-3" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
-
 					<div class="sl-slide-inner">
-
 						<h2 class="slide-titre" id="slide-3-titre">About</h2>
-
 					</div>
-
 				</div>
 			</div><!-- /sl-slider -->
-
 			<nav id="nav-arrows" class="nav-arrows">
 				<span class="nav-arrow-prev">Previous</span>
 				<span class="nav-arrow-next">Next</span>
 			</nav>
-
-
-
 			<nav id="nav-dots" class="nav-dots">
 				<span class="nav-dot-current"></span>
 				<span></span>
 				<span></span>
 			</nav>
-
 		</div>
 		<!-- /slider-wrapper -->
-
 	</div>
-
-
 	</div>
-
 	<!---page Work-->
-
-	<div class="container active" id="welcome">
-		Welcome content
-	</div>
-
+	<div class="container active" id="welcome"> Welcome content </div>
 	<div class="container inactive" id="work">
 		<div id="slider">
-
 			<div class=" sl-slide bg-2" data-orientation="horizontal" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
-
 				<div class="sl-slide-inner">
-
 					<div style="position : relative;" class="button-group filters-button-group">
 						<button class="button one is-checked" data-filter="*">Show all</button>
 						<button class="button two" data-filter=".video">Videos</button>
@@ -133,70 +97,41 @@
 						<button class="button one" data-filter=".graphism">Graphism</button>
 						<button class="button two" data-filter=".uiux">UI/UX</button>
 						<button class="button three" data-filter=".trois-d">3D</button>
-
 					</div>
 					<div class="grid">
 						<div class="grid-sizer"></div>
 						<!-- Images used to open the lightbox -->
-
 						<img class="element-item grid-item grid-item--width2 video hover-shadow" data-category="video" onclick="openModal();currentSlide(1)" src="element/video/poster-talentscreen.png">
-
 						<img class="element-item grid-item trois-d hover-shadow" data-category="trois-d" onclick="openModal();currentSlide(2)" src="element/3d/poster-penguincafe.png">
-
-
 						<img class="element-item grid-item trois-d hover-shadow" data-category="trois-d" onclick="openModal();currentSlide(3)" src="element/3d/poster-kebmo.png">
-
-
 						<img class="element-item grid-item photo hover-shadow" onclick="openModal();currentSlide(4)" data-category="photo" src="element/photo/5_1.jpg" alt="">
-
-
 						<img class="element-item grid-item photo hover-shadow" onclick="openModal();currentSlide(7)" data-category="photo" src="element/photo/4_2.jpg">
-
-
 						<img class="element-item grid-item grid-item--width2 video hover-shadow" data-category="video" onclick="openModal();currentSlide(12)" src="element/video/poster-ibba.png">
-
-
 						<img class="element-item grid-item grid-item--width2 animation hover-shadow" data-category="animation" onclick="openModal();currentSlide(13)" src="element/animation/poster-1.png">
-
-
 						<img class="element-item grid-item photo hover-shadow" onclick="openModal();currentSlide(14)" data-category="photo" src="element/photo/3_1.jpg" alt="">
-
 						<img class="element-item grid-item  animation hover-shadow" data-category="animation" onclick="openModal();currentSlide(16)" src="element/animation/poster-1b.png">
-
 						<img class="element-item grid-item grid-item--width2 video hover-shadow" data-category="video" onclick="openModal();currentSlide(17)" src="element/video/poster-pullover.png">
-
 						<img class="element-item grid-item graphism hover-shadow" onclick="openModal();currentSlide(18)" data-category="graphism" src="element/graphisme/1_1.jpg" alt="">
-
 						<img class="element-item grid-item graphism hover-shadow" onclick="openModal();currentSlide(19)" data-category="graphism" src="element/graphisme/1_2.jpg" alt="">
-
 						<video class="element-item grid-item grid-item--width2 uiux hover-shadow" data-category="uiux" onclick="openModal();currentSlide(18)">
 							<source src="element/uiux/declan.mp4" type="video/mp4">
 						</video>
-
 						<img class="element-item grid-item photo hover-shadow" onclick="openModal();currentSlide(21)" data-category="photo" src="element/photo/2_3.jpg" alt="">
-
 						<img class="element-item grid-item photo hover-shadow" onclick="openModal();currentSlide(25)" data-category="photo" src="element/photo/1_5.jpg" alt="">
-
 						<img class="element-item grid-item grid-item--width2 video hover-shadow" data-category="video" onclick="openModal();currentSlide(29)" src="element/video/poster-alright.png">
-
 						<!-- The Modal/Lightbox 4 -->
 						<div id="myModal" class="modal">
 							<span class="close cursor" onclick="closeModal()">&times;</span>
 							<div class="modal-content">
 								<div class="caption-container"></div>
-
 								<div class="mySlides">
 									<div class="numbertext">1</div>
-
 									<iframe width="800" height="350" src="https://www.youtube.com/embed/sBgJ-L04Rgs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 									<div class="modal-footer">
 										<h5 class="title">TalentScreen 2019</h5>
 										<h5> Music Video Award Making of Music video production Sim's "Nous contre eux"</h5>
 									</div>
 								</div>
-
-
 								<div class="mySlides">
 									<div class="numbertext">2</div>
 									<video controls="controls">
@@ -204,13 +139,9 @@
 									</video>
 									<div class="modal-footer">
 										<h5 class="title">Penguin Café concert @Docks</h5>
-										<h5> 3D animation project created for Penguin Café's concert that took place at
-											the Docks
-											(lausanne)</h5>
+										<h5> 3D animation project created for Penguin Café's concert that took place at the Docks (lausanne)</h5>
 									</div>
 								</div>
-
-
 								<div class="mySlides">
 									<div class="numbertext">3</div>
 									<video controls="controls">
@@ -218,111 +149,77 @@
 									</video>
 									<div class="modal-footer">
 										<h5 class="title">KebMo concert @Docks</h5>
-										<h5> 3D animation project created for Keb' Mo's concert that took place at the
-											Docks
-											(lausanne)
-										</h5>
+										<h5> 3D animation project created for Keb' Mo's concert that took place at the Docks (lausanne) </h5>
 									</div>
 								</div>
-
 								<!--Photopoetry-->
-
 								<div class="mySlides">
 									<div class="numbertext">4</div>
 									<img src="element/photo/5_2.jpg" style="width:100%">
 									<div class="modal-footer">
 										<h5 class="title">Photopoetry</h5>
-										<h5> Photography Project in which I had to carry out a work on poetry through a
-											lens</h5>
+										<h5> Photography Project in which I had to carry out a work on poetry through a lens</h5>
 									</div>
 								</div>
-
 								<div class="mySlides">
 									<div class="numbertext">5</div>
 									<img src="element/photo/5_3.jpg" style="width:100%">
 									<div class="modal-footer">
 										<h5 class="title">Photopoetry</h5>
-										<h5> Photography Project in which I had to carry out a work on poetry through a
-											lens</h5>
+										<h5> Photography Project in which I had to carry out a work on poetry through a lens</h5>
 									</div>
 								</div>
-
 								<div class="mySlides">
 									<div class="numbertext">6</div>
 									<img src="element/photo/5_4.jpg" style="width:100%">
 									<div class="modal-footer">
 										<h5 class="title">Photopoetry</h5>
-										<h5> Photography Project in which I had to carry out a work on poetry through a
-											lens</h5>
+										<h5> Photography Project in which I had to carry out a work on poetry through a lens</h5>
 									</div>
 								</div>
-
 								<!--Photopoetry-->
 								<!--MagicalImagery-->
-
 								<div class="mySlides">
 									<div class="numbertext">7</div>
 									<img src="element/photo/4_2.jpg" style="width:100%">
 									<div class="modal-footer">
 										<h5 class="title">Magical Imagery</h5>
-										<h5> Photography Project in which I had to carry out a work on the magic that a
-											camera could
-											bring
-										</h5>
+										<h5> Photography Project in which I had to carry out a work on the magic that a camera could bring </h5>
 									</div>
 								</div>
-
 								<div class="mySlides">
 									<div class="numbertext">8</div>
 									<img src="element/photo/4_3.jpg" style="width:100%">
 									<div class="modal-footer">
 										<h5 class="title">Magical Imagery</h5>
-										<h5> Photography Project in which I had to carry out a work on the magic that a
-											camera could
-											bring
-										</h5>
+										<h5> Photography Project in which I had to carry out a work on the magic that a camera could bring </h5>
 									</div>
 								</div>
-
 								<div class="mySlides">
 									<div class="numbertext">9</div>
 									<img src="element/photo/4_5.jpg" style="width:100%">
 									<div class="modal-footer">
 										<h5 class="title">Magical Imagery</h5>
-										<h5> Photography Project in which I had to carry out a work on the magic that a
-											camera could
-											bring
-										</h5>
+										<h5> Photography Project in which I had to carry out a work on the magic that a camera could bring </h5>
 									</div>
 								</div>
-
 								<div class="mySlides">
 									<div class="numbertext">10</div>
 									<img src="element/photo/4_8.jpg" style="width:100%">
 									<div class="modal-footer">
 										<h5 class="title">Magical Imagery</h5>
-										<h5> Photography Project in which I had to carry out a work on the magic that a
-											camera could
-											bring
-										</h5>
+										<h5> Photography Project in which I had to carry out a work on the magic that a camera could bring </h5>
 									</div>
 								</div>
-
 								<div class="mySlides">
 									<div class="numbertext">11</div>
 									<img src="element/photo/4_9.jpg" style="width:100%">
 									<div class="modal-footer">
 										<h5 class="title">Magical Imagery</h5>
-										<h5> Photography Project in which I had to carry out a work on the magic that a
-											camera could
-											bring
-										</h5>
+										<h5> Photography Project in which I had to carry out a work on the magic that a camera could bring </h5>
 									</div>
 								</div>
-
 								<!--MagicalImagery-->
-
-
 								<div class="mySlides">
 									<div class="numbertext">12</div>
 									<video controls="controls">
@@ -330,12 +227,9 @@
 									</video>
 									<div class="modal-footer">
 										<h5 class="title">Ibba</h5>
-										<h5> Video presentation of the artist Ibba (DJ) at the CaféXX
-											(Freiburg)<br>Shooting : Lucid
-											Dreams<br> Editing : Diana Chaves</h5>
+										<h5> Video presentation of the artist Ibba (DJ) at the CaféXX (Freiburg)<br>Shooting : Lucid Dreams<br> Editing : Diana Chaves</h5>
 									</div>
 								</div>
-
 								<div class="mySlides">
 									<div class="numbertext">13</div>
 									<video controls="controls" poster="element/animation/poster-1.png">
@@ -343,13 +237,9 @@
 									</video>
 									<div class="modal-footer">
 										<h5 class="title">Opening Credits</h5>
-										<h5> Example of an opening credits a fictitious production company and
-											movie<br><br>Done
-											with
-											After Effects & Illustrator</h5>
+										<h5> Example of an opening credits a fictitious production company and movie<br><br>Done with After Effects & Illustrator</h5>
 									</div>
 								</div>
-
 								<div class="mySlides">
 									<div class="numbertext"> 14</div>
 									<img src="element/photo/3_1.jpg" style="width:100%">
@@ -358,7 +248,6 @@
 										<h5> Still life Photograph made with waste material</h5>
 									</div>
 								</div>
-
 								<div class="mySlides">
 									<div class="numbertext">15</div>
 									<img src="element/photo/3_2.jpg" style="width:100%">
@@ -367,7 +256,6 @@
 										<h5> Still life Photograph made with waste material</h5>
 									</div>
 								</div>
-
 								<div class="mySlides">
 									<div class="numbertext">16</div>
 									<video controls="controls">
@@ -378,18 +266,14 @@
 										<h5> SVG logo animation</h5>
 									</div>
 								</div>
-
 								<div class="mySlides">
 									<div class="numbertext">17</div>
-
 									<iframe width="900" height="350" src="https://www.youtube.com/embed/lUsx7VpvU3g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 									<div class="modal-footer">
 										<h5 class="title">Pull Over</h5>
 										<h5> Vidéo Workshop<br>Team Work project based from a scénario</h5>
 									</div>
 								</div>
-
 								<div class="mySlides">
 									<div class="numbertext">18</div>
 									<img src="element/graphisme/1_1.jpg" style="width:100%">
@@ -398,7 +282,6 @@
 										<h5> A5 Flyer for "Théatre en Utopie" Exhibition</h5>
 									</div>
 								</div>
-
 								<div class="mySlides">
 									<div class="numbertext">19</div>
 									<img src="element/graphisme/1_2.jpg" style="width:100%">
@@ -407,7 +290,6 @@
 										<h5> A5 Flyer for "Théatre en Utopie" Exhibition</h5>
 									</div>
 								</div>
-
 								<div class="mySlides">
 									<div class="numbertext">20</div>
 									<video controls="controls">
@@ -415,11 +297,9 @@
 									</video>
 									<div class="modal-footer">
 										<h5 class="title">Visual Animated</h5>
-										<h5> Graphic Animation for the artist Declan McKenna<br><br>Done with InVision
-										</h5>
+										<h5> Graphic Animation for the artist Declan McKenna<br><br>Done with InVision </h5>
 									</div>
 								</div>
-
 								<div class="mySlides">
 									<div class="numbertext">21</div>
 									<img src="element/photo/2_3.jpg" style="width:100%">
@@ -428,7 +308,6 @@
 										<h5> Photography Project in the aim was to show off a nocturnal atmosphere</h5>
 									</div>
 								</div>
-
 								<div class="mySlides">
 									<div class="numbertext">22</div>
 									<img src="element/photo/2_2.jpg" style="width:100%">
@@ -437,7 +316,6 @@
 										<h5> Photography Project in the aim was to show off a nocturnal atmosphere</h5>
 									</div>
 								</div>
-
 								<div class="mySlides">
 									<div class="numbertext">23</div>
 									<img src="element/photo/2_1.jpg" style="width:100%">
@@ -446,7 +324,6 @@
 										<h5> Photography Project in the aim was to show off a nocturnal atmosphere</h5>
 									</div>
 								</div>
-
 								<div class="mySlides">
 									<div class="numbertext">24</div>
 									<img src="element/photo/2_4.jpg" style="width:100%">
@@ -455,7 +332,6 @@
 										<h5> Photography Project in the aim was to show off a nocturnal atmosphere</h5>
 									</div>
 								</div>
-
 								<div class="mySlides">
 									<div class="numbertext">25</div>
 									<img src="element/photo/1_5.jpg" style="width:100%">
@@ -464,7 +340,6 @@
 										<h5> Photography Project in which it was to create a portrait of a city</h5>
 									</div>
 								</div>
-
 								<div class="mySlides">
 									<div class="numbertext">26</div>
 									<img src="element/photo/1_3.jpg" style="width:100%">
@@ -473,7 +348,6 @@
 										<h5> Photography Project in which it was to create a portrait of a city</h5>
 									</div>
 								</div>
-
 								<div class="mySlides">
 									<div class="numbertext">27</div>
 									<img src="element/photo/1_2.jpg" style="width:100%">
@@ -482,7 +356,6 @@
 										<h5> Photography Project in which it was to create a portrait of a city</h5>
 									</div>
 								</div>
-
 								<div class="mySlides">
 									<div class="numbertext">28</div>
 									<img src="element/photo/1_1.jpg" style="width:100%">
@@ -491,8 +364,6 @@
 										<h5> Photography Project in which it was to create a portrait of a city</h5>
 									</div>
 								</div>
-
-
 								<div class="mySlides">
 									<div class="numbertext">29</div>
 									<iframe width="900" height="350" src="https://www.youtube.com/embed/DgbCZejgTmI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -501,11 +372,9 @@
 										<h5> Team work to produce a video clip for the Kreaem artist</h5>
 									</div>
 								</div>
-
 								<!-- Next/previous controls -->
 								<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 								<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
 								<!-- Caption text -->
 								<div class="caption-container">
 									<p id="caption"></p>
@@ -518,27 +387,19 @@
 		</div>
 	</div>
 	<button onclick="topFunction()" id="myBtn" title="Go to top">UP</button>
-
 	<div class="container inactive" id="about">
 		<div class="grid">
 			<div class="grid-sizer"></div>
 			<h3 class="grid-item">
 				<img src="element/icon/logo-blanc.svg" width="250px;"></h3>
-
 			<h3 class="grid-item">My name is Diana<br>I am currently an Interactiv Media Designer at <a id="color2" href="https://eracom.ch/">ERACOM</a>
 				<br>(Lausanne, Switzerland)</h3>
-
-			<h3 class="grid-item">If you have any questions send me an <a id="color3" href="mailto:chaves.diana98@yahoo.com">email</a> :)
-				<br>
-				Here's my resume<a id="color4" href="element/cv/cv-horizontal-final(fr).png">(fr)</a><a id="color1" href="#">(eng)</a></h3>
-
+			<h3 class="grid-item">If you have any questions send me an <a id="color3" href="mailto:chaves.diana98@yahoo.com">email</a> :) <br> Here's my resume<a id="color4" href="element/cv/cv-horizontal-final(fr).png">(fr)</a><a id="color1"
+					href="#">(eng)</a></h3>
 			<h3 class="grid-item" style="height=50">&nbsp;&nbsp;&nbsp;&nbsp;</h3>
 			<h3 class="grid-item" style="height=50">&nbsp;&nbsp;&nbsp;&nbsp;</h3>
 			<h3 class="grid-item" style="height=50">&nbsp;&nbsp;&nbsp;&nbsp;</h3>
-
-			<h3 class="grid-item">
-				INTEREST
-				<ul>
+			<h3 class="grid-item"> INTEREST <ul>
 					<li>Video</li>
 					<li>Animation</li>
 					<li>Photography</li>
@@ -554,27 +415,18 @@
 			<h3 class="grid-item" style="height=50">&nbsp;&nbsp;&nbsp;&nbsp;</h3>
 			<h3 class="grid-item" style="height=50">&nbsp;&nbsp;&nbsp;&nbsp;</h3>
 			<h3 class="grid-item" style="height=50">&nbsp;&nbsp;&nbsp;&nbsp;</h3>
-			<h3 class="grid-item"> ©Diana - Interactiv Media Designer
-			</h3>
+			<h3 class="grid-item"> ©Diana - Interactiv Media Designer </h3>
 			<h3 class="grid-item" style="height=50">&nbsp;&nbsp;&nbsp;&nbsp;</h3>
 			<h3 class="grid-item" style="height=50">&nbsp;&nbsp;&nbsp;&nbsp;</h3>
 		</div>
-
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
 		<script type="text/javascript" src="js/jquery.slitslider.js"></script>
 		<script type="text/javascript" src="js/indexscript.js"></script>
 		<!--work-->
-
 		<script src='https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script>
 		<script src="js/imagesloaded.pkgd.min.js"></script>
-
 		<script src="js/travauxscript.js"></script>
-
-
-
-
-
 </body>
 
 </html>
