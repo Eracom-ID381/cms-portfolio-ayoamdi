@@ -82,14 +82,14 @@ function topFunction() {
 // Open the Modal
 function openModal() {
     document.getElementById("myModal").style.display = "block";
-    document.getElementById("body").classList.add('hidden');
+    //document.getElementById("body").classList.add('hidden');
     document.getElementById("head").classList.add('hidden');
 }
 
 // Close the Modal
 function closeModal() {
     document.getElementById("myModal").style.display = "none";
-    document.getElementById("body").classList.remove('hidden');
+    //document.getElementById("body").classList.remove('hidden');
     document.getElementById("head").classList.remove('hidden');
 
 }

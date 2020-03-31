@@ -427,3 +427,30 @@ h5 {
         display: table;
     }
 }
+
+@media screen and (min-width: 650px) and (max-width: 800px) {
+    .button {
+        font-size: 11px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .button {
+        font-size: 7px;
+        padding: 6px 4px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 414px) {
+    .button {
+        font-size: 7px;
+        padding: 6px 7px;
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width: 650px) {
+    .button {
+        font-size: 8px;
+        padding: 6px 7px;
+    }
+}
