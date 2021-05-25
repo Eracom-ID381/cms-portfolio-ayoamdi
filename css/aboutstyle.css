@@ -1,29 +1,37 @@
 @font-face {
     font-family: 'simplon_monoregular';
     src: url('fonts/simplonmono-regular-webfont.woff2') format('woff2'),
-         url('fonts/simplonmono-regular-webfont.woff') format('woff');
+        url('fonts/simplonmono-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
-* { box-sizing: border-box; }
+* {
+    box-sizing: border-box;
+}
 
 body {
-  background-color: black;
-  font-family: 'simplon_monoregular', sans-serif;
+    background-color: #efaf15 35%;
+    font-family: 'simplon_monoregular', sans-serif;
 }
+
 /* bullet color*/
+ul {
+    list-style: none;
+    /* Remove default bullets */
+}
 
- ul {
-   list-style: none; /* Remove default bullets */
- }
-
- ul li::before {
-   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-   color: rgb(255, 230, 13); /* Change the color */
-   font-weight: bold; /* If you want it to be bold */
-   display: inline-block; /* Needed to add space between the bullet and the text */
-   width: 1em; /* Also needed for space (tweak if needed) */
-   margin-left: -1em; /* Also needed for space (tweak if needed) */
- }
+ul li::before {
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: rgb(255, 230, 13);
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    /* Also needed for space (tweak if needed) */
+}
