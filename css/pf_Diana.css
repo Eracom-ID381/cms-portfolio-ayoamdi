@@ -52,7 +52,7 @@ body.hidden {
 }
 
 .nav-arrows-1 span:hover {
-    border-color: rgb(251, 181, 78);
+    border-color: #17db61;
 }
 
 .nav-arrows-1 span.nav-arrow-prev {
@@ -88,7 +88,7 @@ body.hidden {
 }
 
 .nav-arrows-2 span:hover {
-    border-color: rgb(152, 255, 175);
+    border-color: #9b0ce1;
 }
 
 .nav-arrows-2 span.nav-arrow-prev {
@@ -124,7 +124,7 @@ body.hidden {
 }
 
 .nav-arrows-3 span:hover {
-    border-color: rgb(255, 230, 13);
+    border-color: #9b0ce1;
 }
 
 .nav-arrows-3 span.nav-arrow-prev {
@@ -165,6 +165,13 @@ body.hidden {
 /*rouge*/
     {
     color: rgb(255, 63, 27);
+}
+
+#color5
+
+/*purple*/
+    {
+    color: #9b0ce1;
 }
 
 h3 {
