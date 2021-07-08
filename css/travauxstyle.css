@@ -109,6 +109,7 @@ body {
     background: #888;
     background-size: 100%;
     color: #262524;
+    border-radius: 7px;
 }
 
 .element-item>* {
